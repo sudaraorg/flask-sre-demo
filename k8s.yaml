@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
         - name: flask-demo
-          image: flask-demo:latest
-          imagePullPolicy: Never
+          image: sudaranz/flask-demo:latest
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
 ---
